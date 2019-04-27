@@ -1,3 +1,6 @@
+This was my second react app. This was my first time using api data in a react app. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
