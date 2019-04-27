@@ -1,0 +1,97 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+.displayBox{
+  /* display: flex; */
+  flex-direction: row;
+  margin: 20px 10px 10px 20px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background: #f2ae72;
+  border: 2px solid #f2e394;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.searchDiv{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
+.cityFont{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 50px;
+  margin-left: 20px;   
+  color: white;
+}
+
+.weatherApp{
+  height: 580px;
+  width: 500px;
+  background:  #588c7e;
+  margin-top: 10%;
+  margin-left: 20%;
+  text-align: center;
+  border: 10px solid #4d7a6e; 
+  border-radius: 25px;
+
+}
+
+.searchBar {
+  margin-top: 5%;
+  color: white;
+}
+
+.cityInput{
+  height: 27px;
+  width: 90px;
+  border-radius: 25px 0 0 25px;
+  font: 14px "Century Gothic", Futura, sans-serif, bold;
+  padding-left: 20px;
+  background: #f2e394;
+  color: #d96459;
+  
+}
+
+.cityInput:focus {
+  outline: none;
+}
+
+.bttnStyle {
+  height: 32px;
+  border-radius: 0 25px 25px 0;
+  background: #d96459;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  color: #f2e394;
+  border: none;
+}
+
+.bttnStyle:focus{
+  outline: none;
+}
+
+ .inputHeader{
+   margin: 0px;
+ }
+
+ .inputBox{
+   margin-top: 10px;
+ }
+
+.weatherIcon {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+  filter: invert(100%);
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.displayInline{
+  display: inline;
+}
